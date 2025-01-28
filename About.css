@@ -1,0 +1,13 @@
+.Foto{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    height: 240px;
+    width: 40px;
+    padding: 20px;
+    margin: 0;
+    gap: 2px;
+    
+
+}
+

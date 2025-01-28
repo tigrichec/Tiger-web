@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:nth-child(1) {
+    background-color: red; /* Красный */
+}
+
+.navbar a:nth-child(2) {
+    background-color: orange; /* Оранжевый */
+}
+
+.navbar a:nth-child(3) {
+    background-color: yellow; /* Желтый */
+}
+
+.navbar a:nth-child(4) {
+    background-color: green; /* Зеленый */
+}
+
+.navbar a:nth-child(5) {
+    background-color: blue; /* Синий */
+}
+
+/* Эффект при наведении */
+.navbar a:hover {
+    opacity: 0.8;
+}
+
+/* Стили для темной темы */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .navbar a {
+    color: #fff;
+}
+
+/* Стили для кнопки-тумблера */
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #6200ea;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.theme-toggle:hover {
+    background-color: #3700b3;
+}
